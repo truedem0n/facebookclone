@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+body {
+  margin: 0px auto;
+  padding: 0px;
+  background: #edf0f5;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body header {
+  background: #3b5896;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  height: 82px;
+}
+
+body header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px auto;
+  width: 980px;
+}
+
+body header div a {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+body header div a h1 {
+  margin: 25px 0px 15px 0px;
+}
+
+body header div div {
+  width: 392px;
+  padding-left: 450px;
+  margin: auto 0px;
+}
+
+body header div div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 2px;
+  margin: 0px;
+}
+
+body header div div div input {
+  border: 1px solid black;
+  width: 150px;
+  height: 20px;
+}
+
+body header div div div a {
+  font-size: 12px;
+}
+
+body header div div div p {
+  margin: 0px;
+  font-size: 12px;
+}
+
+body header div div a {
+  font-size: 12px;
+}
+
+body section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 607px;
+  width: 980px;
+  background: #edf0f5;
+  margin: 0 auto;
+  display: flex;
+}
+
+body section .about {
+  width: 565px;
+}
+
+body section .about h2 {
+  padding: 42px 0 24px;
+  font-size: 28px;
+  line-height: 36px;
+  width: 400px;
+}
+
+body section .about div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 0px 10px;
+  margin-top: 14px;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+
+body section .about div img {
+  padding-right: 15px;
+}
+
+body section .form {
+  width: 399px;
+}
+
+body section .form h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+body section .form h3 {
+  font-size: 19px;
+  font-family: "Lato", sans-serif;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+body section .form .together {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body section .form .together input {
+  border: 1px solid whitesmoke;
+  padding: 8px 10px;
+  font-size: 18px;
+  width: 188px;
+  border-radius: 2px;
+  border: 1px solid #b1b1b1;
+}
+
+body section .form input {
+  border: 1px solid whitesmoke;
+  padding: 8px 10px;
+  margin: 3px 0px;
+  width: 100%;
+  border: 1px solid #b1b1b1;
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+body section .form form h3 {
+  font-size: 16px;
+  color: #90949c;
+  padding: 0px;
+  margin: 15px 0px 10px;
+}
+
+body section .form form select {
+  font-size: 13px;
+  height: 30px;
+  padding: 5px;
+  background: white;
+  border: 1px solid #b1b1b1;
+}
+
+body section .form form span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body section .form form span span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 10px;
+}
+
+body section .form form span span input {
+  width: 20px;
+}
+
+body section .form form button {
+  font-size: 19px;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#67ae55), to(#578843));
+  background: linear-gradient(#67ae55, #578843);
+  padding-bottom: 5px;
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  -webkit-box-shadow: inset 0 1px 1px #a4e388;
+          box-shadow: inset 0 1px 1px #a4e388;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  display: inline-block;
+  border-color: #3b6e22 #3b6e22;
+}
+
+body section .form form p {
+  font-size: 11px;
+  width: 325px;
+  color: #777;
+}
+
+body section .form h4 {
+  border-top: 2px solid #dddfe2;
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+body footer {
+  background: white;
+  color: #737373;
+  font-size: 12px;
+  padding-bottom: 18vh;
+}
+
+body footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 980px;
+  margin: 0px auto;
+  padding: 30px 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer div ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  margin-bottom: 1px;
+}
+
+body footer div ul li {
+  padding-right: 10px;
+}
+
+body footer div ul li a {
+  color: #385898;
+  text-decoration: none;
+}
+
+body footer div .links {
+  border-top: 1px solid #dddfe2;
+}
+
+.fixfirst {
+  padding-bottom: 15px;
+}
+
+.login {
+  border: 1px solid #15294d;
+  border-radius: 2px;
+  margin: auto 0px;
+  width: 110px;
+  height: 20px;
+  padding: 2px 2px;
+  color: white;
+  background: #32589b;
+}
+/*# sourceMappingURL=style.css.map */
